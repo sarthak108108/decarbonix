@@ -1,0 +1,14 @@
+metric,calculated,official,difference,pass_within_1pct
+steam_t,2797.0,2797,0.0,True
+coal_steam_t,1886.0,1886,0.0,True
+biomass_steam_t,480.0,480,0.0,True
+gas_steam_t,205.0,205,0.0,True
+waste_steam_t,226.0,226,0.0,True
+grid_mwh,216.50000000000003,216.5,2.842170943040401e-14,True
+solar_mwh,59.2,59.2,0.0,True
+steam_emissions,843.5379999999999,843.538,-1.1368683772161603e-13,True
+grid_emissions,143.454,143.454,0.0,True
+total_emissions,986.992,986.992,0.0,True
+steam_cost,4123180.0,4123180,0.0,True
+grid_cost,1403540.0,1403540,0.0,True
+total_cost,5526720.0,5526720,0.0,True

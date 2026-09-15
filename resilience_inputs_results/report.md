@@ -1,0 +1,61 @@
+# CarbonOS results
+
+Coal and biomass continuously ON; minimum-on requirements satisfied; starts=0; 1h intervals.
+
+Gate flags compare to the official normal thresholds; they are not required for the disturbance case.
+
+```json
+{
+  "cost": 5186983.333360631,
+  "emissions": 846.8123334350073,
+  "cost_saving_pct": 6.147166251218971,
+  "carbon_saving_pct": 14.202715580773972,
+  "coal_t": 286.5933333794184,
+  "biomass_t": 219.9999999337409,
+  "gas_sm3": 4880.0,
+  "steam_totals": [
+    1592.1851854412134,
+    814.8148145694107,
+    61.0,
+    329.0
+  ],
+  "solar_mwh": 60.00000000000001,
+  "grid_mwh": 215.70000000000005,
+  "flex_mwh": 18.0,
+  "steam_emissions": 705.2543334350075,
+  "grid_emissions": 141.55800000000002,
+  "steam_cost": 3802203.3333606315,
+  "grid_cost": 1384780.0,
+  "carbon_gate_pass": true,
+  "cost_gate_pass": true
+}
+```
+
+## Feasibility checks
+
+```json
+{
+  "steam_min": 0.0,
+  "steam_max": 2.519999999999996,
+  "electric_balance_error": -0.0,
+  "coal_bounds": 0.0,
+  "bio_bounds": 0.0,
+  "gas_bounds": 0.0,
+  "waste_bounds": 0.0,
+  "solar_bounds": 0.0,
+  "grid_bounds": 5.800000000000001,
+  "flex_bounds": 0.0,
+  "flex_forbidden": -0.0,
+  "flex_daily_error": -0.0,
+  "continuity": 0.0,
+  "coal_fuel_margin": 63.406666620581575,
+  "bio_fuel_margin": 6.62591048694594e-08,
+  "gas_fuel_margin": 15120.0,
+  "coal_ramp_margin": 0.0,
+  "bio_ramp_margin": 0.0,
+  "gas_ramp_margin": 37.0,
+  "waste_ramp_margin": 17.0
+}
+```
+
+Full hourly set-points, costs, emissions and binding constraints: hourly_schedule.csv.
